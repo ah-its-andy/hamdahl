@@ -1,6 +1,6 @@
 package hamdahl
 
-type QueryRow struct {
+type DataRow struct {
 	RowIndex int
 	Data     []interface{}
 }

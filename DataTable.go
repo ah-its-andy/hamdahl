@@ -1,7 +1,7 @@
 package hamdahl
 
-type QueryTable struct {
+type DataTable struct {
 	Name    string
 	Columns *QueryColumnCollection
-	Rows    []*QueryRow
+	Rows    []*DataRow
 }
